@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mvn clean compile package
+
+java -jar target/Result-1.0-SNAPSHOT.jar $1 $2
